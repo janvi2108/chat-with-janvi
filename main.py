@@ -69,4 +69,6 @@ with gr.Blocks(title="Chat with Janvi", theme=gr.themes.Soft()) as page:
     clear.click(lambda: ([], chat_history_messages.clear()), outputs=chatbot)
 
 # Launch app
-page.launch(share=True)
+if __name__ == "__main__":
+    page.launch()
+
