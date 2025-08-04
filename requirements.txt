@@ -1,0 +1,5 @@
+gradio
+langchain
+langchain-google-genai
+google-ai-generativelanguage==0.6.18
+python-dotenv
